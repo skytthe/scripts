@@ -94,3 +94,19 @@ code --install-extension ms-python.python
 code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-iot.vscode-ros
+
+
+# install ROS packages
+sudo apt install ros-melodic-tf2-tools
+sudo apt install liburdfdom-tools
+sudo apt install ros-melodic-gazebo-ros-control
+sudo apt install ros-melodic-joint-trajectory-controller
+
+
+sudo apt-get install ros-melodic-moveit*
+sudo apt-get install ros-melodic-geometric-shapes
+sudo apt-get install ros-melodic-moveit ros-melodic-moveit-msgs
+sudo apt-get install ros-melodic-rviz-visual-tools
+sudo apt-get install ros-melodic-controller*
+
+sudo apt-get install ros-melodic-gazebo-ros ros-melodic-eigen-conversions ros-melodic-object-recognition-msgs ros-melodic-roslint libgazebo9* ros-melodic-moveit-core ros-melodic-moveit-ros ros-melodic-moveit-planners-ompl ros-melodic-moveit-fake-controller-manager ros-melodic-moveit-simple-controller-manager ros-melodic-gazebo-ros-control
